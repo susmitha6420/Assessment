@@ -1,0 +1,28 @@
+This Program calculator how many boxes required to sale the oranges and apples
+
+Function saleBoxes with Arguments apples,oranges
+
+ Set big to zero
+ Set smallapplesbox to zero
+ Set smallOrangebox to zero
+
+While apples divided by 100 not equal to zero and oranged divided by 100 not equal to zero
+	Minus apples with 100
+	Minus oranges with 100
+	Add one number to big
+Print the big number
+
+While apples not equal to zero
+	If apples not equal to zero
+	Minus  apples with 50
+	Add one number to smallapplesbox
+Print smallapplesbox
+
+While oranges not equal to zero
+	If oranges not equal to zero
+	Minus oranges with 50
+	And one number to smallOrangebox
+Print smallOrangebox
+
+In the main function
+Send the Apples and oranges to the saleBoxes function and print the combination boxes and small apple boxes and small oranges boxes 
